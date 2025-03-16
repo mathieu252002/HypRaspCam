@@ -1,13 +1,11 @@
 
 # INSTALL
 
-sudo apt-get update
+git clone https://github.com/mathieu252002/HypRaspCam
 
-git clone --depth=1 https://github.com/GabrielCrabb/HypRaspCam_libcamera
+cd HypRaspCam
 
-cd HypRaspCam_libcamera/
-
-sudo chmod a+x install.sh
+sudo chmod +x install.sh shareWiFi.sh autorun.sh
 
 sudo ./install.sh
 
