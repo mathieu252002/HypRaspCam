@@ -1,3 +1,10 @@
+#!/bin/bash
 cd /home/mathieu/HypRaspCam/
 clear
-./HypRaspCam 51717
+./HypRaspCam 51717 
+
+
+
+
+
+
