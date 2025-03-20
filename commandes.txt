@@ -1,0 +1,7 @@
+sudo chmod +x /etc/init.d/HypRaspCam
+sudo 
+update-rc.d HypRaspCam defaults
+
+sudo systemctl daemon-reload
+sudo 
+systemctl enable HypRaspCam
